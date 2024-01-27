@@ -18,13 +18,13 @@ body{
 
 .section-title{
     color: #181818;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 700;
     text-align: center;
 }
 .section-description{
     color:#757575;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 400;
     text-align: center;
 }
@@ -100,11 +100,36 @@ width: 500px;
 }
 
 /* main section styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+  
 
+}
 /* about section related styles */
 .about{
     padding: 130px;
     border-radius: 10px;
     background: #FFF8F3;
     margin: 130px 0;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center
+}
+.info-title{
+    color:#757575;
+    font-size: 17px;
+
+}
+
+.info-description{
+    color:#474747;
+    font-size: 17px;
+    font-weight: 700;
+   
 }
